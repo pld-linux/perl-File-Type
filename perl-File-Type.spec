@@ -1,3 +1,4 @@
+z# $Revision: 1.2 $, $Date: 2004-12-09 23:31:40 $
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
@@ -6,7 +7,7 @@
 %define	pdir	File
 %define	pnam	Type
 Summary:	File::Type - determine file type using magic
-#Summary(pl):	
+Summary(pl):	File::Type - okre¶lenie typu pliku za pomoc± liczb magicznych
 Name:		perl-File-Type
 Version:	0.22
 Release:	1
@@ -27,8 +28,9 @@ determine the MIME type of that file.
 File::Type can use either a filename, or file contents, to determine
 the type of a file.
 
-# %description -l pl
-# TODO
+%description -l pl
+File::Type s³u¿y do okre¶lania typu MIME pliku za pomoc± liczb
+magicznych (zazwyczaj zawartych na pocz±tku pliku).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
