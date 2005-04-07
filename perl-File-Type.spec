@@ -1,4 +1,3 @@
-z# $Revision: 1.2 $, $Date: 2004-12-09 23:31:40 $
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
