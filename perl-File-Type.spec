@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	Type
 Summary:	File::Type - determine file type using magic
-Summary(pl):	File::Type - okre∂lenie typu pliku za pomoc± liczb magicznych
+Summary(pl.UTF-8):   File::Type - okre≈õlenie typu pliku za pomocƒÖ liczb magicznych
 Name:		perl-File-Type
 Version:	0.22
 Release:	1
@@ -27,9 +27,9 @@ determine the MIME type of that file.
 File::Type can use either a filename, or file contents, to determine
 the type of a file.
 
-%description -l pl
-File::Type s≥uøy do okre∂lania typu MIME pliku za pomoc± liczb
-magicznych (zazwyczaj zawartych na pocz±tku pliku).
+%description -l pl.UTF-8
+File::Type s≈Çu≈ºy do okre≈õlania typu MIME pliku za pomocƒÖ liczb
+magicznych (zazwyczaj zawartych na poczƒÖtku pliku).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
