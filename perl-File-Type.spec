@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	File
 %define	pnam	Type
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::Type - determine file type using magic
 Summary(pl.UTF-8):	File::Type - określenie typu pliku za pomocą liczb magicznych
 Name:		perl-File-Type
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4be3b0b7000b325c60351fcc8a04815d
+URL:		http://search.cpan.org/dist/File-Type/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
