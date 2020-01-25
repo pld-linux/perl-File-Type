@@ -4,7 +4,6 @@
 
 %define	pdir	File
 %define	pnam	Type
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Type - determine file type using magic
 Summary(pl.UTF-8):	File::Type - określenie typu pliku za pomocą liczb magicznych
 Name:		perl-File-Type
